@@ -30,6 +30,7 @@ header {
     justify-content: center; 
     gap: 130px; 
     border-bottom: 3px solid antiquewhite;
+    padding-bottom: 20px;
 }
 
 header a {
@@ -59,3 +60,67 @@ header a:hover {
 }
 
 
+.foot-part {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.foot-part img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.foot-part p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.right-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 669px;
+    height: 100vh; 
+    background-color: black; 
+    color: white; 
+    border: 1px solid antiquewhite; 
+    opacity: 1;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+.right-menu img {
+    width: 40px; 
+    height: 50px; 
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.right-menu > div:not(:first-child) {
+    margin-top: 250px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+
+
+.right-menu > div h3 {
+    font-size: 30px;
+    margin-bottom: 30px; 
+}
+
+.right-menu > div p {
+    font-size: 20px;
+    margin: 5px 0; 
+}

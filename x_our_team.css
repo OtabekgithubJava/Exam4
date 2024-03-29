@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+header {
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 130px; 
+    border-bottom: 3px solid antiquewhite;
+    padding-bottom: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 50px 15px; 
+    font-size: 30px; 
+}
+
+header a:hover {
+    color: coral;
+}
+
+.vector-1 {
+    width: 30px; 
+    height: 30px;
+    gap: 0px;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 1200px;
+    margin-bottom: 150px; 
+}
+
+
+.right-menu {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 1px solid antiquewhite;
+    padding-bottom: 80px;
+    border-top: 1px solid antiquewhite;
+    padding-top: 80px;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.right-menu img.left-icon {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.right-menu img.right-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.right-menu > div {
+    text-align: center;
+}
+
+.right-menu > div:nth-child(even) {
+    order: -1;
+}
+
+.right-menu > div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-menu > div p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.right-menu img.left-icon {
+    width: 60px; 
+    height: 60px; 
+}
+
+.right-menu img.right-icon {
+    width: 50px; 
+    height: 350px; 
+    position: absolute;
+    top: -15px;
+    right: 180px; 
+}
+
+.right-menu-insta {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.right-menu-contact,
+.right-menu-work {
+    flex: 1; 
+    text-align: center; 
+    /* font-size: 100px; */
+}
+
+
+.team-container {
+    margin-top: 100px; 
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px; 
+}
+
+.team-item {
+    text-align: center;
+}
+
+.team-item img {
+    width: 450px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 30px; /* Adjust margin between image and text as needed */
+}
+
+.team-item h1,
+.team-item p {
+    color: white; /* Set text color */
+}
+
+.team-item h1 {
+    font-size: 20px; 
+}
+
+.team-item p {
+    font-size: 16px; 
+    margin-bottom: 10px; 
+}
+
+
+.team-row .team-item img {
+    width: 600px; 
+    height: auto; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 80px 0;
+}
