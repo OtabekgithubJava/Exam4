@@ -78,7 +78,6 @@ header a:hover {
 }
 
 .team-image-image1 img,
-.team-image-image2 img,
 .team-image-image3 img {
     width: 1000px; 
     height: auto; 
@@ -86,36 +85,68 @@ header a:hover {
 }
 
 .team-image-image1 div,
-.team-image-image2 div,
 .team-image-image3 div {
     flex: 1; 
 }
 
 .team-image-image1 h3,
-.team-image-image2 h3,
 .team-image-image3 h3 {
     color: aliceblue; 
-    font-size: 44px; 
-}
-
-.team-image-image1 h1,
-.team-image-image2 h1,
-.team-image-image3 h1 {
-    color: aliceblue; 
-    font-size: 22px;
-    margin-left: 800px; /* Adjust the left margin to push the price to the right */
-    /* margin-top: 7px; */
+    font-size: 40px; 
 }
 
 .team-image-image1 p,
-.team-image-image2 p,
 .team-image-image3 p {
     color: aliceblue; 
-    font-size: 22px;
+    font-size: 25px;
 }
 
+.team-image-image1 .price,
+.team-image-image3 .price {
+    font-size: 32px;
+    color: aliceblue;
+    margin-left: 444px; /* Adjust as needed */
+}
+
+/* Separately */
+.team-image-image2 {
+    margin-right: 70px; 
+
+}
+
+.team-image-image2 img {
+    width: 2000px; /* Adjust the width of the image */
+}
+
+.team-image-image2 div {
+    margin-left: 40px; /* Adjust as needed to create space between the image and text */
+}
+
+.team-image-image2 h3 {
+    color: aliceblue; 
+    font-size: 40px;
+    margin-left: -180px; /* Adjust as needed to align the text with the image */
+}
+
+.team-image-image2 p {
+    margin-left: -180px;
+    color: aliceblue; 
+    font-size: 25px;
+}
+
+.team-image-image2 .price {
+    margin-left: 400px; /* Adjust as needed to align the price with the text */
+    font-size: 36px;
+}
+
+.team-image-image2 .separator {
+    flex: 1;
+    border-top: 1px solid antiquewhite; 
+    margin: 50px 0; 
+}
+/* Separately */
+
 .team-image-image1 .separator,
-.team-image-image2 .separator,
 .team-image-image3 .separator {
     flex: 1;
     border-top: 1px solid antiquewhite; 
