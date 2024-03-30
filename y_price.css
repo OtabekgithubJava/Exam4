@@ -58,52 +58,77 @@ header a:hover {
 }
 
 .team-container {
-    margin-top: -700px; 
+    margin-top: 400px; 
     margin-right: -15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: -100px;
 }
 
-.team-row {
+.team-image-image1,
+.team-image-image2,
+.team-image-image3 {
+    width: 70vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 70px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 110px; 
 }
 
-.team-item {
-    text-align: center;
-}
-
-.team-item img {
-    width: 2010px;
+.team-image-image1 img,
+.team-image-image2 img,
+.team-image-image3 img {
+    width: 1000px; 
     height: auto; 
-    margin-bottom: 50px; 
+    margin-right: 136px; 
 }
 
-
-.team-item h1,
-.team-item p {
-    color: white; 
+.team-image-image1 div,
+.team-image-image2 div,
+.team-image-image3 div {
+    flex: 1; 
 }
 
-.team-item h1 {
-    font-size: 20px; 
+.team-image-image1 h3,
+.team-image-image2 h3,
+.team-image-image3 h3 {
+    color: aliceblue; 
+    font-size: 44px; 
 }
 
-.team-item p {
-    font-size: 16px; 
-    margin-bottom: 10px; 
+.team-image-image1 h1,
+.team-image-image2 h1,
+.team-image-image3 h1 {
+    color: aliceblue; 
+    font-size: 22px;
+    margin-left: 800px; /* Adjust the left margin to push the price to the right */
+    /* margin-top: 7px; */
+}
+
+.team-image-image1 p,
+.team-image-image2 p,
+.team-image-image3 p {
+    color: aliceblue; 
+    font-size: 22px;
+}
+
+.team-image-image1 .separator,
+.team-image-image2 .separator,
+.team-image-image3 .separator {
+    flex: 1;
+    border-top: 1px solid antiquewhite; 
+    margin: 50px 0; /* Adjust margin as needed */
 }
 
 .right-menu {
     position:absolute;
-    bottom: -1050px;
-    width: 73%; 
+    bottom: -2250px;
+    width: 70%; 
     background-color: black;
     color: white;
-    padding: 90px 110px; 
+    padding: 120px 110px; 
     box-sizing: border-box;
     border-top: 3px solid antiquewhite;
     display: flex;
@@ -164,7 +189,7 @@ header a:hover {
     top: 80px;
     right: 50px;
     color: white;
-    font-size: 32px; /* Increase Instagram text font size */
+    font-size: 32px; 
     margin: 0;
 }
 
@@ -176,7 +201,7 @@ header a:hover {
 
 .copyright {
     position: absolute;
-    bottom: -1250px;
+    bottom: -2450px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
