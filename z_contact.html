@@ -5,20 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Team</title>
     <link rel="stylesheet" href="z_contact.css"> 
+
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd; 
+        }
+    </style>
+
 </head>
 <body>
 
-<header>
-    <img class="vector-1" src="./assets/logo/Group 2.svg" alt="vector">
-    <a href="/index.html">Главная</a>
-    <a href="/x_our_team.html">Мастера</a>
-    <a href="#">Косметика</a>
-    <img class="vector-1" src="./assets/logo/Vector.svg" alt="vector">
-    <a href="/y_price.html">Акции</a>
-    <a href="#">Отзывы</a>
-    <a href="#">Контакты</a>
-    <img class="vector-1" src="./assets/fonts/Group 1.svg" alt="vector">
-</header>
+    <header>
+        <a href="https://www.instagram.com/m_otabek_007/" target="_blank">
+            <img class="vector-1" src="./assets/logo/Group 2.svg" alt="Instagram">
+        </a>
+        <a href="/index.html">Главная</a>
+        <a href="/x_our_team.html">Мастера</a>
+        <a href="#">Косметика</a>
+        <a href="https://www.linkedin.com/in/mr-otabek-13a3aa275/" target="_blank">
+            <img src="./assets/logo/Vector.svg" alt="vector">
+        </a>
+        <a href="/y_price.html">Акции</a>
+        <a href="#">Отзывы</a>
+        <a href="/z_contact.html">Контакты</a>
+        <div class="dropdown">
+            <img class="vector-1" src="./assets/fonts/Group 1.svg" alt="vector" onclick="toggleDropdown()">
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="/index.html">Главная</a>
+                <a href="/x_our_team.html">Мастера</a>
+                <a href="#">Косметика</a>
+                <a href="/y_price.html">Акции</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+    </header>
 
 <div class="team-container">
     <h3 class="main-text">Контакты</h3>
@@ -54,7 +96,9 @@
     </div>
     
     <div class="right-menu">
-        <img class="vector-1 left-icon" src="/assets/logo/Vector.svg" alt="">
+        <a href="https://www.linkedin.com/in/mr-otabek-13a3aa275/" target="_blank">
+            <img class="vector-1 left-icon" src="./assets/logo/Vector.svg" alt="vector">
+        </a>
         <div class="right-menu-contact">
             <h3>Контакты</h3>
             <p>+7 (812) 123-45-67</p>
@@ -67,13 +111,29 @@
             <p>Сб-Вс: 11:00 - 20:00</p>
         </div>
         <p class="right-menu-insta">Мы в Instagram</p>
-        <img class="vector-1 right-icon" src="/assets/logo/Group 2.svg" alt="">
+        <a href="https://www.instagram.com/m_otabek_007/" target="_blank">
+            <img class="vector-1 right-icon" src="./assets/logo/Group 2.svg" alt="Instagram">
+        </a>
     </div>  
 </div>
 
 <div class="copyright">
     <p>Copyright © 2017 - 2022</p>
-</div>          
+</div>     
+
+
+<!-- JavaScript -->
+<script>
+        
+    function toggleDropdown() {
+        var dropdownContent = document.getElementById("dropdownContent");
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    }
+</script>
 
 </body>
 </html>

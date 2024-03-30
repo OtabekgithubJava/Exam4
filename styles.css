@@ -11,6 +11,7 @@ body {
     background-image: url(./assets/img/backgroundimg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     margin: 0;
     display: flex;
     justify-content: center; 
@@ -61,7 +62,7 @@ header a:hover {
 
 
 .foot-part {
-    position: fixed;
+    position: absolute;
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
@@ -82,11 +83,11 @@ header a:hover {
 
 
 .right-menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 669px;
-    height: 100vh; 
+    height: 121vh; 
     background-color: black; 
     color: white; 
     border: 1px solid antiquewhite; 
@@ -114,13 +115,78 @@ header a:hover {
 }
 
 
-
 .right-menu > div h3 {
     font-size: 30px;
     margin-bottom: 30px; 
 }
 
 .right-menu > div p {
-    font-size: 20px;
+    font-size: 24px;
     margin: 5px 0; 
+}
+
+
+.second-page {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin-top: 5160px;
+}
+
+.second-page-header {
+    width: 100%;
+    height: auto; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.second-page-h1 {
+    color: white;
+    text-align: center; /* Center the text */
+    margin-top: 50px; /* Adjust margin to create space */
+    padding: 20px; /* Example padding */
+    max-width: 1456px; /* Max width of the text */
+    width: 100%; /* Make the text responsive */
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3700px; /* Adjust as needed */
+}
+
+.icon-text-container img {
+    width: 160px; /* Increase the width to make the icon larger */
+    height: auto; /* Let the height adjust automatically */
+    margin-right: 10px; /* Adjust as needed */
+}
+
+
+/* images change */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Push the pictures to the left */
+    margin-top: 2150px; /* Adjust as needed */
+    margin-left: -600px;
+}
+
+.image-container img {
+    width: 30%; /* Adjust size as needed */
+    margin-bottom: 20px; /* Adjust as needed */
 }

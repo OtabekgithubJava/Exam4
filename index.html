@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="styles.css"> 
+
+    <style>
+        .right-menu.hidden {
+            display: none;
+        }
+
+        .restore-icon {
+            display: none;
+            position: fixed; 
+            top: 65px; 
+            right: 20px;
+            width: 3%;   
+        }
+    </style>
+
 </head>
 <body>
 
     <header>
-        <img class="vector-1" src="./assets/logo/Group 2.svg" alt="">
+        <a href="https://www.instagram.com/m_otabek_007/" target="_blank">
+            <img class="vector-1" src="./assets/logo/Group 2.svg" alt="Instagram">
+        </a>
         <a href="#">Главная</a>
         <a href="/x_our_team.html">Мастера</a>
         <a href="#">Косметика</a>
-        <img class="vector-1" src="./assets/logo/Vector.svg" alt="vector">
+        <a href="https://www.linkedin.com/in/mr-otabek-13a3aa275/" target="_blank">
+            <img class="vector-1" src="./assets/logo/Vector.svg" alt="vector">
+        </a>
         <a href="/y_price.html">Акции</a>
         <a href="#">Отзывы</a>
         <a href="/z_contact.html">Контакты</a>
@@ -27,9 +46,9 @@
         <img src="./assets/logo/Group 5.png" alt="icon">
         <p>Прокрутите вниз</p>
     </div>
-
-    <div class="right-menu">
-        <img src="./assets/fonts/Vector.svg" alt="vector">
+    
+    <div class="right-menu" id="rightMenu">
+        <img id="disableIcon" src="./assets/fonts/Vector.svg" alt="vector">
         <div>
             <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Ipsum, adipiscing amet in <br> egestas sem dui, arcu faucibus scelerisque. <br> Nisl est felis id volutpat. <br> Sed dolor fermentum amet</p> 
         </div>
@@ -44,8 +63,54 @@
             <p>C 10:00 до 21:00 (Пн-Пт)</p>
             <p>C 11:00 до 20:00 (Cб-Bc)</p> 
         </div>
+
     </div>
 
+
+    <img id="restoreIcon" class="restore-icon" src="./assets/logo/undo.png" alt="restore">
+
+    
+    <script>
+        document.getElementById('disableIcon').addEventListener('click', function() {
+            var rightMenu = document.getElementById('rightMenu');
+            rightMenu.classList.add('hidden');
+
+            var restoreIcon = document.getElementById('restoreIcon');
+            restoreIcon.style.display = 'inline-block';
+        });
+
+        document.getElementById('restoreIcon').addEventListener('click', function() {
+            var rightMenu = document.getElementById('rightMenu');
+            rightMenu.classList.remove('hidden');
+
+            var restoreIcon = document.getElementById('restoreIcon');
+            restoreIcon.style.display = 'none';
+        });
+    </script>
+
+
+    <!-- <div class="second-page"> -->
+        <!-- <header class="second-page-header"> -->
+        <!-- New div for icons and text -->
+        <!-- <div class="icon-text-container">
+            <img src="/assets/logo/“.svg" alt="icon">
+        </div>
+        <h1 class="second-page-h1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet. Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit elit, facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque quam <br> tortor, malesuada <br> iaculis. 
+            Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet sapien fringilla <br> vestibulum sit fames.
+        </h1>
+        </header> -->
+
+        <!-- <div class="image-container">
+            <img src="/assets/fonts/unsplash_TnyHlxVnyhk.jpg" alt="">
+            <img src="/assets/fonts/unsplash_gb6gtiTZKB8.jpg" alt="">
+            <img src="/assets/fonts/unsplash_qeuJczNo54w.jpg" alt="">
+            <img src="/assets/fonts/unsplash_Pe9IXUuC6QU.jpg" alt="">
+            <img src="/assets/fonts/unsplash_VxAwTeiqDao.jpg" alt="">
+            <img src="/assets/fonts/unsplash_FoeIOgztCXo.jpg" alt="">
+        </div> -->
+    <!-- </div> -->
+    
 
 </body>
 </html>
