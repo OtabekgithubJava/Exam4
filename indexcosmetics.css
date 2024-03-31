@@ -18,7 +18,7 @@ body {
 
 .secondpaga-header {
     width: 80%;
-    height: 450px;
+    height: 550px;
     position: absolute;
     top: 80px;
     left: 50%;
@@ -34,12 +34,13 @@ body {
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 1600px;
-    margin-bottom: 180px; /* Change if need to push text down */
-    max-width: 1800px; /* Adjust maximum width as needed */
-    margin-left: auto; /* Center-align the text */
-    margin-right: auto; /* Center-align the text */
+    margin-top: 2000px; /* Increase margin-top to push the text down */
+    margin-bottom: -40px; /* Adjust margin-bottom as needed */
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 
 .company-menu {
@@ -55,10 +56,10 @@ body {
 }
 
 .company-menu img {
-    width: 180px; 
-    height: 130px; 
+    width: 250px; 
+    height: 150px; 
     /* Change the margins to push the icons */
-    margin-top: 150px; 
+    margin-top: 230px; 
     margin-bottom: 230px;
     margin-left: 20px; 
     margin-right: 20px;
@@ -80,37 +81,36 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden; 
-    position: relative; /* Position the container relative for absolute positioning */
+    overflow: hidden;
+    position: relative; 
+    margin: -130px 5px;
 }
 
 .ads-item img {
-    width: 450px; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Adjust margin between image and text as needed */
-    position: relative; /* Position the image relative for pseudo-elements */
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1; 
 }
 
-.ads-item img::before,
-.ads-item img::after {
-    content: ''; /* Necessary for pseudo-elements */
-    position: absolute; /* Position the pseudo-elements */
-    background-color: white; /* Color of the borders */
+.ads-item .icon-overlay {
+    position: relative;
+    top: 40%; 
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
-.ads-item img::before {
-    top: 0; /* Position at the top of the image */
-    left: 0; /* Position at the left of the image */
-    width: 100%; /* Full width */
-    height: 2px; /* Border thickness */
+.ads-item .icon-overlay img {
+    width: 80%; 
+    height: 80%; 
 }
 
-.ads-item img::after {
-    top: 0; /* Position at the top of the image */
-    left: 0; /* Position at the left of the image */
-    width: 2px; /* Border thickness */
-    height: 100%; /* Full height */
-}
 
 
 .ads-item h1,
@@ -119,54 +119,45 @@ body {
 }
 
 .text0 {
-    font-size: 40px; 
+    font-size: 45px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
-    margin-left: -220px; /* Adjust margin-left to push the heading to the left */
+    margin-top: 30px; 
+    margin-left: -150px; /* Adjust margin-left to push the heading to the left */
     margin-bottom: 20px;
 }
 
 .text1,
 .text2 {
-    font-size: 40px; 
+    font-size: 45px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
+    margin-top: 30px; 
     margin-left: -430px; /* Adjust margin-left to push the heading to the left */
     margin-bottom: 20px;
 }
 
 .text3 {
-    font-size: 40px; 
+    font-size: 45px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
-    margin-left: -380px; /* Adjust margin-left to push the heading to the left */
+    margin-top: 30px; 
+    margin-left: -350px; /* Adjust margin-left to push the heading to the left */
     margin-bottom: 20px;
 }
 
 .text4 {
-    font-size: 40px; 
+    font-size: 45px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
+    margin-top: 30px; 
     margin-left: -310px; /* Adjust margin-left to push the heading to the left */
     margin-bottom: 20px;
 }
 
 .text5 {
-    font-size: 40px; 
+    font-size: 45px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
+    margin-top: 30px; 
     margin-left: -480px; /* Adjust margin-left to push the heading to the left */
     margin-bottom: 20px;
 }
-
-
-/* .ads-item h1 {
-    font-size: 40px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 20px; 
-    margin-left: -220px; /* Adjust margin-left to push the heading to the left */
-    /* margin-bottom: 20px; */
-/* }  */
 
 
 .ads-item p {
