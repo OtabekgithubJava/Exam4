@@ -80,13 +80,38 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden; 
+    position: relative; /* Position the container relative for absolute positioning */
 }
 
 .ads-item img {
     width: 450px; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Adjust margin between image and text as needed */
+    position: relative; /* Position the image relative for pseudo-elements */
 }
+
+.ads-item img::before,
+.ads-item img::after {
+    content: ''; /* Necessary for pseudo-elements */
+    position: absolute; /* Position the pseudo-elements */
+    background-color: white; /* Color of the borders */
+}
+
+.ads-item img::before {
+    top: 0; /* Position at the top of the image */
+    left: 0; /* Position at the left of the image */
+    width: 100%; /* Full width */
+    height: 2px; /* Border thickness */
+}
+
+.ads-item img::after {
+    top: 0; /* Position at the top of the image */
+    left: 0; /* Position at the left of the image */
+    width: 2px; /* Border thickness */
+    height: 100%; /* Full height */
+}
+
 
 .ads-item h1,
 .ads-item p {
