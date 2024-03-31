@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    width: 70%;
+    width: 73%;
     height: 100px;
     position: absolute;
     top: 40px;
@@ -44,7 +44,7 @@ header a:hover {
 }
 
 .vector-1 {
-    width: 30px; 
+    width: 60px; 
     height: 30px;
     gap: 0px;
 }
@@ -115,7 +115,7 @@ header a:hover {
 
 .right-menu img.left-icon {
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 40px;
 }
 
@@ -134,12 +134,12 @@ header a:hover {
 }
 
 .right-menu > div h3 {
-    font-size: 24px;
+    font-size: 34px;
     margin-bottom: 10px;
 }
 
 .right-menu > div p {
-    font-size: 18px;
+    font-size: 28px;
     margin: 5px 0;
 }
 
@@ -149,20 +149,20 @@ header a:hover {
 }
 
 .right-menu img.right-icon {
-    width: 50px; 
+    width: 60px; 
     height: 350px; 
     position: absolute;
-    top: -15px;
+    top: 20px;
     right: 180px; 
 }
 
 .right-menu-insta {
     position: absolute;
     top: 80px;
-    right: 50px;
+    right: 30px;
     color: white;
-    font-size: 28px;
-    margin: 0;
+    font-size: 32px;
+    margin: 20px;
 }
 
 .right-menu-contact,
