@@ -17,10 +17,10 @@ body {
 }
 
 header {
-    width: 70%;
-    height: 100px;
+    width: 75%;
+    height: 120px;
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -28,7 +28,7 @@ header {
     justify-content: center; 
     gap: 130px; 
     border-bottom: 3px solid antiquewhite;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header a {
@@ -44,7 +44,7 @@ header a:hover {
 }
 
 .vector-1 {
-    width: 30px; 
+    width: 70px; 
     height: 40px;
     gap: 0px;
 }
