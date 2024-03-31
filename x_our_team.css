@@ -26,7 +26,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 130px; 
+    gap: 120px; 
     border-bottom: 3px solid antiquewhite;
     padding-bottom: 50px;
 }
@@ -44,7 +44,7 @@ header a:hover {
 }
 
 .vector-1 {
-    width: 30px; 
+    width: 60px; 
     height: 30px;
     gap: 0px;
 }
@@ -53,8 +53,9 @@ header a:hover {
     color: white;
     text-align: center;
     font-size: 60px;
-    margin-top: 1200px;
-    margin-bottom: 150px; 
+    position: relative; 
+    top: -500px; /* Adjust top position as needed */
+    margin-bottom: 30px; /* Adjust margin as needed */
 }
 
 
@@ -63,16 +64,18 @@ header a:hover {
     width: 100%;
     background-color: black;
     color: white;
-    padding: 150px;
+    padding: 350px;
+    top: -170px; /* Adjust the top position as needed */
+    right: 0; /* Align it to the right */
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
     border-bottom: 1px solid antiquewhite;
-    padding-bottom: 80px;
+    padding-bottom: 130px;
     border-top: 1px solid antiquewhite;
-    padding-top: 80px;
+    padding-top: 100px;
     flex-direction: row;
     justify-content: space-around; 
 }
@@ -98,26 +101,26 @@ header a:hover {
 }
 
 .right-menu > div h3 {
-    font-size: 24px;
+    font-size: 34px;
     margin-bottom: 10px;
 }
 
 .right-menu > div p {
-    font-size: 18px;
+    font-size: 22px;
     margin: 5px 0;
 }
 
 .right-menu img.left-icon {
-    width: 60px; 
-    height: 60px; 
+    width: 70px; 
+    height: 70px; 
 }
 
 .right-menu img.right-icon {
-    width: 50px; 
-    height: 350px; 
+    width: 60px; 
+    height: 360px; 
     position: absolute;
-    top: -15px;
-    right: 180px; 
+    top: -12px;
+    right: 200px; 
 }
 
 .right-menu-insta {
@@ -125,7 +128,7 @@ header a:hover {
     top: 80px;
     right: 50px;
     color: white;
-    font-size: 28px;
+    font-size: 32px;
     margin: 0;
 }
 
@@ -133,42 +136,69 @@ header a:hover {
 .right-menu-work {
     flex: 1; 
     text-align: center; 
-    /* font-size: 100px; */
 }
 
 
 .team-container {
-    margin-top: 100px; 
+    margin-top: 2700px;
 }
 
 .team-row {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
 }
 
 .team-item {
     text-align: center;
+    margin: -250px 10px; 
+    position: relative;
+
 }
 
 .team-item img {
-    width: 450px; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 30px; /* Adjust margin between image and text as needed */
+    width: 250px; 
+    height: auto; 
+    margin-bottom: 20px; 
+    z-index: 1; 
+    position: relative;
+    top: -1500px;
 }
 
-.team-item h1,
-.team-item p {
-    color: white; /* Set text color */
+.team-item .icon-overlay {
+    position: relative;
+    top: 71%; 
+    left: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
+
+.team-item .icon-overlay img {
+    width: 80%; 
+    height: 80%; 
+}
+
 
 .team-item h1 {
-    font-size: 20px; 
+    color: white; 
+    font-size: 30px;
+    position: absolute;
+    bottom: 690px; 
+    left: 24%; 
+    transform: translateX(-50%); 
 }
 
 .team-item p {
-    font-size: 16px; 
-    margin-bottom: 10px; 
+    color: white; 
+    font-size: 22px;
+    position: absolute;
+    bottom: 650px; 
+    left: 13%; 
+    transform: translateX(-50%); 
 }
 
 
@@ -184,5 +214,5 @@ header a:hover {
     text-align: center;
     color: white;
     font-size: 14px;
-    padding: 80px 0;
+    padding: 0 0;
 }

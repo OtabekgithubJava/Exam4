@@ -16,6 +16,18 @@ body {
     height: 100vh; 
 }
 
+.custom-link {
+    display: block; 
+    margin-top: -750px; 
+    margin-left: -400px; 
+    position: absolute; 
+}
+
+.custom-img {
+    height: 90px; 
+    width: auto; 
+}
+
 
 
 .product-menu {
