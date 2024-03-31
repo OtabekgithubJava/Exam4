@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.secondpaga-header {
+    width: 80%;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 130px; 
+    padding-bottom: 60px;
+}
+
+.main-ads-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1600px;
+    margin-bottom: 180px; /* Change if need to push text down */
+    max-width: 1800px; /* Adjust maximum width as needed */
+    margin-left: auto; /* Center-align the text */
+    margin-right: auto; /* Center-align the text */
+}
+
+
+.company-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.company-menu a {
+    text-decoration: none;
+}
+
+.company-menu img {
+    width: 180px; 
+    height: 130px; 
+    /* Change the margins to push the icons */
+    margin-top: 150px; 
+    margin-bottom: 230px;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+
+.ads-container {
+    margin-top: 100px; 
+}
+
+.ads-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px; 
+}
+
+.ads-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ads-item img {
+    width: 450px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust margin between image and text as needed */
+}
+
+.ads-item h1,
+.ads-item p {
+    color: white; 
+}
+
+.text0 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -220px; /* Adjust margin-left to push the heading to the left */
+    margin-bottom: 20px;
+}
+
+.text1,
+.text2 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -430px; /* Adjust margin-left to push the heading to the left */
+    margin-bottom: 20px;
+}
+
+.text3 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -380px; /* Adjust margin-left to push the heading to the left */
+    margin-bottom: 20px;
+}
+
+.text4 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -310px; /* Adjust margin-left to push the heading to the left */
+    margin-bottom: 20px;
+}
+
+.text5 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -480px; /* Adjust margin-left to push the heading to the left */
+    margin-bottom: 20px;
+}
+
+
+/* .ads-item h1 {
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; 
+    margin-left: -220px; /* Adjust margin-left to push the heading to the left */
+    /* margin-bottom: 20px; */
+/* }  */
+
+
+.ads-item p {
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    text-align: left;
+}
+
+
+.ads-row .ads-item img {
+    width: 600px; 
+    height: auto; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
