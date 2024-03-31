@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 1800px;
+    margin-bottom: 120px; 
+}
+
+
+.right-menu {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid antiquewhite;
+    border-top: 1px solid antiquewhite;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 200px; 
+    padding-top: 140px; 
+    padding-bottom: 120px; 
+}
+
+.right-menu img.left-icon {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.right-menu img.right-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.right-menu > div {
+    text-align: center;
+}
+
+.right-menu > div:nth-child(even) {
+    order: -1;
+}
+
+.right-menu > div h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.right-menu > div p {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.right-menu img.left-icon {
+    width: 100px; 
+    height: 100px; 
+    top: 125px;
+}
+
+.right-menu img.right-icon {
+    width: 50px; 
+    height: 350px; 
+    position: absolute;
+    top: 55px;
+    right: 180px; 
+}
+
+.right-menu-insta {
+    position: absolute;
+    top: 120px;
+    right: -20px;
+    color: white;
+    font-size: 38px;
+    margin: 0;
+}
+
+
+.team-container {
+    margin-top: 100px; 
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+}
+
+.team-container h3.main-text + div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.team-container h3.main-text + div > span {
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-right: 120px; 
+    margin-bottom: 90px; 
+}
+
+.team-container h3.main-text + div > span:hover {
+    color: coral;
+    border-bottom: 1px solid coral;
+    padding-bottom: 10px;
+}
+
+
+.team-item {
+    text-align: center;
+}
+
+.team-item img {
+    width: 450px; /* Adjust */
+    height: auto; 
+    margin-bottom: 30px; /* Adjust */
+}
+
+
+.team-row .team-item img {
+    width: 600px; 
+    height: auto; 
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 80px 0;
+}
