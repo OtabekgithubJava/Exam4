@@ -111,21 +111,20 @@ header a:hover {
 /* Separately */
 .team-image-image2 {
     margin-right: 70px; 
-
 }
 
 .team-image-image2 img {
-    width: 2000px; /* Adjust the width of the image */
+    width: 2000px; 
 }
 
 .team-image-image2 div {
-    margin-left: 40px; /* Adjust as needed to create space between the image and text */
+    margin-left: 40px;
 }
 
 .team-image-image2 h3 {
     color: aliceblue; 
     font-size: 40px;
-    margin-left: -180px; /* Adjust as needed to align the text with the image */
+    margin-left: -180px; 
 }
 
 .team-image-image2 p {
@@ -135,14 +134,14 @@ header a:hover {
 }
 
 .team-image-image2 .price {
-    margin-left: 400px; /* Adjust as needed to align the price with the text */
+    margin-left: 400px; 
     font-size: 36px;
 }
 
 .team-image-image2 .separator {
     flex: 1;
     border-top: 1px solid antiquewhite; 
-    margin: 50px 0; 
+    margin: 40px -10px 40px -180px; 
 }
 /* Separately */
 
