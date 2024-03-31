@@ -16,16 +16,9 @@ body {
     height: 100vh; 
 }
 
-.main-text {
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 1800px;
-    margin-bottom: 120px; 
-}
 
 
-.right-menu {
+.product-menu {
     position: relative;
     width: 100%;
     background-color: black;
@@ -44,43 +37,43 @@ body {
     padding-bottom: 120px; 
 }
 
-.right-menu img.left-icon {
+.product-menu img.left-icon {
     position: absolute;
     top: 80px;
     left: 40px;
 }
 
-.right-menu img.right-icon {
+.product-menu img.product-icon {
     position: absolute;
     top: 20px;
     right: 20px;
 }
 
-.right-menu > div {
+.product-menu > div {
     text-align: center;
 }
 
-.right-menu > div:nth-child(even) {
+.product-menu > div:nth-child(even) {
     order: -1;
 }
 
-.right-menu > div h3 {
+.product-menu > div h3 {
     font-size: 34px;
     margin-bottom: 10px;
 }
 
-.right-menu > div p {
+.product-menu > div p {
     font-size: 28px;
     margin: 5px 0;
 }
 
-.right-menu img.left-icon {
+.product-menu img.left-icon {
     width: 100px; 
     height: 100px; 
     top: 125px;
 }
 
-.right-menu img.right-icon {
+.product-menu img.product-icon {
     width: 50px; 
     height: 350px; 
     position: absolute;
@@ -88,7 +81,7 @@ body {
     right: 180px; 
 }
 
-.right-menu-insta {
+.product-menu-insta {
     position: absolute;
     top: 120px;
     right: -20px;
@@ -98,24 +91,32 @@ body {
 }
 
 
-.team-container {
+.team3-container3 {
     margin-top: 100px; 
 }
 
-.team-row {
+.third-main-text {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 1800px;
+    margin-bottom: 120px; 
+}
+
+.team3-row {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px; 
 }
 
-.team-container h3.main-text + div {
+.team3-container3 h3.third-main-text + div {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
 }
 
-.team-container h3.main-text + div > span {
+.team3-container3 h3.third-main-text + div > span {
     display: block;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -124,25 +125,25 @@ body {
     margin-bottom: 90px; 
 }
 
-.team-container h3.main-text + div > span:hover {
+.team3-container3 h3.third-main-text + div > span:hover {
     color: coral;
     border-bottom: 1px solid coral;
     padding-bottom: 10px;
 }
 
 
-.team-item {
+.team3-item {
     text-align: center;
 }
 
-.team-item img {
+.team3-item img {
     width: 450px; /* Adjust */
     height: auto; 
     margin-bottom: 30px; /* Adjust */
 }
 
 
-.team-row .team-item img {
+.team3-row .team3-item img {
     width: 600px; 
     height: auto; 
     margin-left: 10px;
