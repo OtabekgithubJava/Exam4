@@ -104,7 +104,9 @@ body {
 
 
 .team3-container3 {
-    margin-top: 100px; 
+    margin-top: 10000px; 
+    position: relative;
+    left: -3150px;
 }
 
 .third-main-text {

@@ -42,7 +42,6 @@ body {
 }
 
 
-
 .company-menu {
     display: flex;
     justify-content: space-around;
@@ -67,7 +66,9 @@ body {
 
 
 .ads-container {
-    margin-top: 100px; 
+    margin-top: 4000px; 
+    position: relative;
+    left: -1120px;
 }
 
 .ads-row {
@@ -109,6 +110,10 @@ body {
 .ads-item .icon-overlay img {
     width: 80%; 
     height: 80%; 
+}
+
+.icon-text-container{
+    margin-top: 3900px;
 }
 
 
@@ -172,4 +177,8 @@ body {
     height: auto; 
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.secondpaga-header{
+    padding-top: 5000p
 }
