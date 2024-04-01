@@ -20,19 +20,20 @@ body {
 }
 
 header {
-    width: 67%;
-    height: 160px;
+    width: 63%;
+    height: 100px;
     position: absolute;
-    top: 30px;
-    left: 45%;
+    top: 40px;
+    left: 48%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 90px; 
+    gap: 70px; 
     border-bottom: 3px solid antiquewhite;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
+
 
 header a {
     color: white;
