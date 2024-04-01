@@ -376,36 +376,36 @@
 										<div class="grid grid-cols-4 gap-4 sm:grid-cols-8 lg:grid-cols-4">
 											<!-- Active: "ring-2 ring-indigo-500" -->
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm">
-												<input type="radio" name="size-choice" value="XXS" class="sr-only" aria-labelledby="size-choice-0-label" />
+												<input type="radio" name="size-choice" value="Pedis" class="sr-only" aria-labelledby="size-choice-0-label" />
 												<span id="size-choice-0-label">Pedis</span>
 											</label>
 											<!-- Update hover -->
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="XS" class="sr-only" aria-labelledby="size-choice-1-label" />
+												<input type="radio" name="size-choice" value="Facials" class="sr-only" aria-labelledby="size-choice-1-label" />
 												<span id="size-choice-1-label">Facials</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="S" class="sr-only" aria-labelledby="size-choice-2-label" />
+												<input type="radio" name="size-choice" value="Yoga" class="sr-only" aria-labelledby="size-choice-2-label" />
 												<span id="size-choice-2-label">Yoga</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="M" class="sr-only" aria-labelledby="size-choice-3-label" />
+												<input type="radio" name="size-choice" value="Waxing" class="sr-only" aria-labelledby="size-choice-3-label" />
 												<span id="size-choice-3-label">Waxing</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="L" class="sr-only" aria-labelledby="size-choice-4-label" />
+												<input type="radio" name="size-choice" value="Body" class="sr-only" aria-labelledby="size-choice-4-label" />
 												<span id="size-choice-4-label">Body</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="XL" class="sr-only" aria-labelledby="size-choice-5-label" />
+												<input type="radio" name="size-choice" value="Salt" class="sr-only" aria-labelledby="size-choice-5-label" />
 												<span id="size-choice-5-label">Salt</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="2XL" class="sr-only" aria-labelledby="size-choice-6-label" />
+												<input type="radio" name="size-choice" value="Pilates" class="sr-only" aria-labelledby="size-choice-6-label" />
 												<span id="size-choice-6-label">Pilates</span>
 											</label>
 											<label class="group relative flex items-center justify-center rounded-md border py-3 px-4 text-sm font-medium uppercase focus:outline-none sm:flex-1 sm:py-6 cursor-pointer bg-white text-gray-900 shadow-sm hover:bg-gray-100">
-												<input type="radio" name="size-choice" value="3XL" class="sr-only" aria-labelledby="size-choice-7-label" />
+												<input type="radio" name="size-choice" value="Bliss" class="sr-only" aria-labelledby="size-choice-7-label" />
 												<span id="size-choice-7-label">Bliss</span>
 											</label>
 										</div>
@@ -424,9 +424,8 @@
                                         var color = colorChoice ? colorChoice.value : '';
                             
                                         var sizeChoice = document.querySelector('input[name="size-choice"]:checked');
-                                        <!-- var sizes = sizeChoice ? sizeChoice.value : ''; -->
+										var size = sizeChoice ? sizeChoice.value : '';
 
-                                        var size = 'Bliss'; 
                                         
                                         if (color && size) {
                                             alert('Item added to bag: Status - ' + color + ', Service - ' + size);

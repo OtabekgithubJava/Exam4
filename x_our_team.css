@@ -26,7 +26,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 120px; 
+    gap: 110px; 
     border-bottom: 3px solid antiquewhite;
     padding-bottom: 50px;
 }
@@ -44,9 +44,9 @@ header a:hover {
 }
 
 .vector-1 {
-    width: 60px; 
-    height: 30px;
-    gap: 0px;
+    width: 90px; 
+    height: 60px;
+    gap: 1px;
 }
 
 .main-text {
