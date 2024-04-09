@@ -47,6 +47,18 @@ header a:hover {
     color: coral;  
 }
 
+.login {
+    position: fixed;
+    top: 40px; /* Adjust as needed */
+    right: 2620px; /* Adjust as needed */
+    z-index: 999; /* Ensures it appears above other elements */
+}
+
+.login img {
+    width: 100px; /* Adjust the size of the login icon */
+    height: auto; /* Ensures aspect ratio is maintained */
+}
+
 .vector-1 {
     width: 60px; 
     height: 60px;
